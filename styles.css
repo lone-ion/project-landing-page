@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.menu-container {
+  color: #fff;
+  background-color: #1F2937;
+  /* Blue */
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+.links {
+  font-size: 18px;
+  color: #E5E7EB;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.header-container {
+  color: #5995DA;
+  background-color: #1F2937;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  height: 450px;
+  gap: 50px;
+  font-size: 18px;
+  color: #E7E5EB;
+  display: flex;
+  align-items: center;
+}
+
+.section {
+  max-width: 450px;
+}
+
+.hero-main-text {
+  font-size: 48px;
+  font-weight: 900;
+  color: #F9FAF8;
+}
+
+.small-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.photo-grid-container {
+  display: flex;
+  justify-content: center;
+  height: 450px;
+}
+
+.photo-grid {
+  display: flex;
+  gap: 50px;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+}
+
+img {
+  border-radius: 8px;
+}
+
+.text {
+  max-width: 200px;
+}
+
+.footer {
+  background-color: #1F2937;
+}
+
+.quote-section {
+  background-color: #E5E7EB;
+  height: 450px;
+  padding: 150px;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: light;
+  font-style: italic;
+  color: #1F2937;
+}
+
+.under-quote {
+  text-align: end;
+  font-weight: bold;
+}
+
+.banner-section {
+  height: 150px;
+  /* padding: 150px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner {
+  background: #3882F6;
+  color: white;
+  width: 860px;
+  padding: 20px 80px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between
+}
+
+button {
+  cursor: pointer;
+  padding: 4px 16px;
+  width: 130px;
+  height: 35px;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+button.modal {
+  background: #3882F6;
+  border: 1px solid white;
+  color: white;
+}
+
+button.hero {
+  background: #3882F6;
+  border: none;
+  color: white;
+  margin-top: 30px;
+}
+
+.footer {
+  margin-top: auto;
+  padding: 30px;
+  color: #E5E7EB;
+  background-color: #1F2937;
+  font-size: 18px;
+  text-align: center;
+}
